@@ -43,7 +43,9 @@ Rayfield:Notify({
 
 local Tab = Window:CreateTab("Typical Colors 2", 4483362458) -- Title, Image
 
-local Section = Tab:CreateSection("scripts duh")
+local Tabforsaken = Window:CreateTab("Forsaken", 4483362458) -- Title, Image
+
+local Section1 = Tab:CreateSection("scripts duh")
 
 local Label = Tab:CreateLabel("If you wanna nerf RAC execute Fishhcheat solara first enable somestuff in mods and unload the script and boom your done", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
 
@@ -2502,5 +2504,25 @@ local Button = Tab:CreateButton({
    Name = "Skibidicheat",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Xatagay/Fishhcheat/refs/heads/main/Sigmacheat.lua"))()
+   end,
+})
+
+
+local Button = Tabforsaken:CreateButton({
+   Name = "Goa Hub || key is goaHuB41",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/GOA_HUB/refs/heads/main/Forsaken"))()
+   end,
+})
+
+local Button = Tabforsaken:CreateButton({
+   Name = "Fartsaken || key hi",
+   Callback = function()
+   if getgenv then
+    getgenv().DebugNotifications = "false"
+    getgenv().TrackMePlease = "true"
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ivannetta/ShitScripts/main/forsaken.lua"))()
    end,
 })
