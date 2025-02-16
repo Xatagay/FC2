@@ -45,7 +45,16 @@ local Tab = Window:CreateTab("Typical Colors 2", 4483362458) -- Title, Image
 
 local Tabforsaken = Window:CreateTab("Forsaken", 4483362458) -- Title, Image
 
-local Tabcre = Window:CreateTab("Credits", 4483362458) -- Title, Image
+local Tabcre = Window:CreateTab("Credits", import { WalletCards } from 'lucide-react';
+
+const App = () => {
+  return (
+    <WalletCards />
+  );
+};
+
+export default App;
+) -- Title, Image
 
 local Section1 = Tab:CreateSection("scripts duh")
 
@@ -2536,3 +2545,9 @@ local Label = Tabcre:CreateLabel("Bibulus - Huppsy2000", 4483362458, Color3.from
 local Label = Tabcre:CreateLabel("Fishhcheat - Fishhvh", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
 
 local Label = Tabcre:CreateLabel("Red.leaf - Xatawell", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
+local Label = Tab:CreateLabel("SkibidiCheat and script hub - mad mechanic ", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
+local Label = Tab:CreateLabel("Goa hub - Nevcit", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
+local Label = Tab:CreateLabel("Fartsaken - flmz", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
