@@ -1,11 +1,3 @@
-Rayfield:Notify({
-   Title = "shit script loaded",
-   Content = "idk what to put",
-   Duration = 6.5,
-   Image = 4483362458,
-})
-
-
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
