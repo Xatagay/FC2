@@ -45,6 +45,8 @@ local Tab = Window:CreateTab("Typical Colors 2", 4483362458) -- Title, Image
 
 local Tabforsaken = Window:CreateTab("Forsaken", 4483362458) -- Title, Image
 
+local Tabcre = Window:CreateTab("Credits", 4483362458) -- Title, Image
+
 local Section1 = Tab:CreateSection("scripts duh")
 
 local Label = Tab:CreateLabel("If you wanna nerf RAC execute Fishhcheat solara first enable somestuff in mods and unload the script and boom your done", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
@@ -2526,3 +2528,11 @@ end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ivannetta/ShitScripts/main/forsaken.lua"))()
    end,
 })
+
+local Label = Tabcre:CreateLabel("Pathos - geodude", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
+local Label = Tabcre:CreateLabel("Bibulus - Huppsy2000", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
+local Label = Tabcre:CreateLabel("Fishhcheat - Fishhvh", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
+local Label = Tabcre:CreateLabel("Red.leaf - Xatawell", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
