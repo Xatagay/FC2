@@ -45,7 +45,7 @@ local Tab = Window:CreateTab("Typical Colors 2", 4483362458) -- Title, Image
 
 local Tabforsaken = Window:CreateTab("Forsaken", 4483362458) -- Title, Image
 
-local Tabcre = Window:CreateTab("Credits", 5924130336) -- Title, Image
+local Tabcre = Window:CreateTab("Credits", 4483362458) -- Title, Image
 
 local Section1 = Tab:CreateSection("scripts duh")
 
@@ -2529,16 +2529,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ivannetta/ShitScripts
    end,
 })
 
-local Label = Tabcre:CreateLabel("Pathos - geodude", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local Label = Tabcre:CreateLabel("Pathos - geodude", 4483362458, Color3.fromRGB(222, 243, 246), false) -- Title, Icon, Color, IgnoreTheme
 
-local Label = Tabcre:CreateLabel("Bibulus - Huppsy2000", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local Label = Tabcre:CreateLabel("Bibulus - Huppsy2000", 4483362458, Color3.fromRGB(222, 243, 246), false) -- Title, Icon, Color, IgnoreTheme
 
-local Label = Tabcre:CreateLabel("Fishhcheat - Fishhvh", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local Label = Tabcre:CreateLabel("Fishhcheat - Fishhvh", 4483362458, Color3.fromRGB(222, 243, 246), false) -- Title, Icon, Color, IgnoreTheme
 
-local Label = Tabcre:CreateLabel("Red.leaf - Xatawell", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local Label = Tabcre:CreateLabel("Red.leaf - Xatawell", 4483362458, Color3.fromRGB(222, 246, 243), false) -- Title, Icon, Color, IgnoreTheme
 
-local Label = Tab:CreateLabel("SkibidiCheat and script hub - mad mechanic ", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local Label = Tab:CreateLabel("SkibidiCheat and script hub - mad mechanic ", 4483362458, Color3.fromRGB(222, 246, 243), false) -- Title, Icon, Color, IgnoreTheme
 
-local Label = Tab:CreateLabel("Goa hub - Nevcit", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local Label = Tab:CreateLabel("Goa hub - Nevcit", 4483362458, Color3.fromRGB(222, 246, 243), false) -- Title, Icon, Color, IgnoreTheme
 
-local Label = Tab:CreateLabel("Fartsaken - flmz", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local Label = Tab:CreateLabel("Fartsaken - flmz", 4483362458, Color3.fromRGB(222, 246, 243), false) -- Title, Icon, Color, IgnoreTheme
