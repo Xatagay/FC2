@@ -45,16 +45,7 @@ local Tab = Window:CreateTab("Typical Colors 2", 4483362458) -- Title, Image
 
 local Tabforsaken = Window:CreateTab("Forsaken", 4483362458) -- Title, Image
 
-local Tabcre = Window:CreateTab("Credits", import { WalletCards } from 'lucide-react';
-
-const App = () => {
-  return (
-    <WalletCards />
-  );
-};
-
-export default App;
-) -- Title, Image
+local Tabcre = Window:CreateTab("Credits", 5924130336) -- Title, Image
 
 local Section1 = Tab:CreateSection("scripts duh")
 
