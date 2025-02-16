@@ -33,6 +33,13 @@ local Window = Rayfield:CreateWindow({
       Key = {"TS2"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
+Rayfield:Notify({
+   Title = "loaded? No Cracked",
+   Content = "idk what to put",
+   Duration = 6.5,
+   Image = 4483362458,
+})
+
 
 local Tab = Window:CreateTab("Typical Colors 2", 4483362458) -- Title, Image
 
