@@ -43,7 +43,7 @@ local Label = Tab:CreateLabel("If you wanna nerf RAC execute Fishhcheat solara f
 local Button = Tab:CreateButton({
    Name = "Fishhcheat v2|| VERY RISKY!!!",
    Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/parrot121761/Fishhcheat/refs/heads/main/loader.lua'))()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/parrot121761/Fishhcheat/refs/heads/main/scripts/fishhcheat.lua'))()
    end,
 })
 
