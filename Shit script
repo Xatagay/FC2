@@ -1,10 +1,17 @@
+Rayfield:Notify({
+   Title = "loaded! ",
+   Content = "IDk",
+   Duration = 6.5,
+   Image = 4483362458,
+})
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Typical shit 2",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Typical Shit 2",
-   LoadingSubtitle = "by mad mechanic on ethreon discord",
+   LoadingSubtitle = "by mad mechanic",
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
