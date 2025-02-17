@@ -1,3 +1,5 @@
+if(game.PlaceId == 328028363) then
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
@@ -2542,3 +2544,5 @@ local Label = Tabcre:CreateLabel("SkibidiCheat and script hub - mad mechanic ", 
 local Label = Tabcre:CreateLabel("Goa hub - Nevcit", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
 
 local Label = Tabcre:CreateLabel("Fartsaken - flmz", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
+
+End
