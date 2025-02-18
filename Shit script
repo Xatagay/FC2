@@ -45,6 +45,8 @@ local Tab = Window:CreateTab("Typical Colors 2", 4483362458) -- Title, Image
 
 local Tabforsaken = Window:CreateTab("Forsaken", 4483362458) -- Title, Image
 
+local Tabanti = Window:CreateTab("Tc2 bypass", 4483362458) -- Title, Image
+
 local Tabcre = Window:CreateTab("Credits", 4483362458) -- Title, Image
 
 local Section1 = Tab:CreateSection("scripts duh")
@@ -2509,6 +2511,12 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tabanti:CreateButton({
+   Name = "Bypass || Best keep spread above 0 so use 1",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f1fde88a51d2fc5fad5548db80a256c2.lua"))()
+   end,
+})
 
 local Button = Tabforsaken:CreateButton({
    Name = "Goa Hub || key is goaHuB41",
