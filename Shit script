@@ -30,7 +30,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "SkibidiCheat v4 is wip", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"FC2","skibidi dopamine"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"FC2","fc2","skibidi dopamine"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 Rayfield:Notify({
@@ -43,15 +43,13 @@ Rayfield:Notify({
 
 local Tab = Window:CreateTab("Typical Colors 2", 4483362458) -- Title, Image
 
-local Tabforsaken = Window:CreateTab("Forsaken", 4483362458) -- Title, Image
+local Tabanti = Window:CreateTab("Tc2 bypass", 4483362458) -- Title, Image 
 
-local Tabanti = Window:CreateTab("Tc2 bypass", 4483362458) -- Title, Image
+local Tabforsaken = Window:CreateTab("Forsaken", 4483362458) -- Title, Image
 
 local Tabcre = Window:CreateTab("Credits", 4483362458) -- Title, Image
 
 local Section1 = Tab:CreateSection("scripts duh")
-
-local Label = Tab:CreateLabel("If you wanna nerf RAC execute Fishhcheat solara first enable somestuff in mods and unload the script and boom your done", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
 
 local Button = Tab:CreateButton({
    Name = "Fishhcheat v2|| VERY RISKY!!!",
@@ -2511,8 +2509,10 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Label = Tabanti:CreateLabel("WARNING: DONT USE SILENT AIMBOT AND NO SPREAD", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
+
 local Button = Tabanti:CreateButton({
-   Name = "Bypass || Best keep spread above 0 so use 1",
+   Name = "Bypass",
    Callback = function()
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f1fde88a51d2fc5fad5548db80a256c2.lua"))()
    end,
@@ -2563,6 +2563,8 @@ local Label = Tabcre:CreateLabel("SkibidiCheat,script hub,anti cheat bypass - ma
 
 local Label = Tabcre:CreateLabel("Goa hub - Nevcit", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
 
-local Label = Tabcre:CreateLabel("Fartsaken - flmz", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
+local Label = Tabcre:CreateLabel("Fartsaken - Ivan", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
 
 local Label = Tabcre:CreateLabel("Imp hub - idk", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
+
+local Label = Tabanti:CreateLabel("Applesaken - idk", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
