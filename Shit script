@@ -2544,6 +2544,13 @@ local Button = Tabforsaken:CreateButton({
    end,
 })
 
+local Button = Tabforsaken:CreateButton({
+   Name = "Applesaken|| keyless, prob better than fartsaken",
+   Callback = function()
+   loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/SilkScripts/AppleStuff/refs/heads/main/AppleFSKV2")))()
+   end,
+})
+
 local Label = Tabcre:CreateLabel("Pathos - geodude", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
 
 local Label = Tabcre:CreateLabel("Bibulus - Huppsy2000", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
