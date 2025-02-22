@@ -2575,4 +2575,4 @@ local Label = Tabcre:CreateLabel("Fartsaken - Ivan", 4483362458, Color3.fromRGB(
 
 local Label = Tabcre:CreateLabel("Imp hub - idk", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
 
-local Label = Tabanti:CreateLabel("Applesaken - idk", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
+local Label = Tabcre:CreateLabel("Applesaken - idk", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
