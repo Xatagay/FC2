@@ -2526,7 +2526,7 @@ local Button = Tabforsaken:CreateButton({
 })
 
 local Button = Tabforsaken:CreateButton({
-   Name = "Fartsaken || key is sigma",
+   Name = "Fartsaken || key is skibidi",
    Callback = function()
    if getgenv then
     getgenv().DebugNotifications = "false"
