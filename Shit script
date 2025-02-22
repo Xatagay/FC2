@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Forsaken Colours 2",
-   Icon = apple, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Forsaken Colours 2",
    LoadingSubtitle = "by Mechanic",
    Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
