@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "FC2",
       Subtitle = "tell me the key bitch",
-      Note = "you think stealing this script is easy? Tell me the key", -- Use this to tell the user how to get a key
+      Note = "Join me discord plz", -- Use this to tell the user how to get a key
       FileName = "SkibidiCheat v4 is wip", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
@@ -47,6 +47,8 @@ local Tab = Window:CreateTab("Typical Colors 2", 4483362458) -- Title, Image
 local Tabanti = Window:CreateTab("Tc2 bypass", 4483362458) -- Title, Image 
 
 local Tabforsaken = Window:CreateTab("Forsaken", 4483362458) -- Title, Image
+
+local Tabre= Window:CreateTab("requested", 4483362458)
 
 local Tabcre = Window:CreateTab("Credits", 4483362458) -- Title, Image
 
@@ -2513,9 +2515,10 @@ local Button = Tab:CreateButton({
 local Label = Tabanti:CreateLabel("WARNING: DONT USE SILENT AIMBOT AND NO SPREAD", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
 
 local Button = Tabanti:CreateButton({
-   Name = "Bypass",
+   Name = "Bypass || just so you know dont use aimbot its detected",
    Callback = function()
-   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f1fde88a51d2fc5fad5548db80a256c2.lua"))()
+ getgenv()._IgnoreErrorCheck = true;
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f1fde88a51d2fc5fad5548db80a256c2.lua"))();
    end,
 })
 
@@ -2527,7 +2530,7 @@ local Button = Tabforsaken:CreateButton({
 })
 
 local Button = Tabforsaken:CreateButton({
-   Name = "Fartsaken || key is skibidi",
+   Name = "Fartsaken || key is ohio plus this script is shit",
    Callback = function()
    if getgenv then
     getgenv().DebugNotifications = "false"
@@ -2552,6 +2555,13 @@ local Button = Tabforsaken:CreateButton({
    end,
 })
 
+local Button = Tabre:CreateButton({
+   Name = "Those who remain",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/18LKuGNW"))()
+   end,
+})
+
 local Label = Tabcre:CreateLabel("Pathos - geodude", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
 
 local Label = Tabcre:CreateLabel("Bibulus - Huppsy2000", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
@@ -2561,6 +2571,8 @@ local Label = Tabcre:CreateLabel("Fishhcheat - Fishhvh", 4483362458, Color3.from
 local Label = Tabcre:CreateLabel("Red.leaf - Xatawell", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
 
 local Label = Tabcre:CreateLabel("SkibidiCheat,script hub,anti cheat bypass - mad mechanic ", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
+
+local Label = Tabcre:CreateLabel("TWR - the creator of this script wanted to stay anonymous but got help from Asger so creds to him ", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
 
 local Label = Tabcre:CreateLabel("Goa hub - Nevcit", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
 
