@@ -2530,7 +2530,7 @@ local Button = Tabforsaken:CreateButton({
 })
 
 local Button = Tabforsaken:CreateButton({
-   Name = "Fartsaken || key is ohio plus this script is shit",
+   Name = "Fartsaken || key is sizzy and ivan stop changing the fucking key",
    Callback = function()
    if getgenv then
     getgenv().DebugNotifications = "false"
