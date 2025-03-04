@@ -2508,19 +2508,11 @@ local Divider = Tab:CreateDivider()
 local Button = Tab:CreateButton({
    Name = "Skibidicheat",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Xatagay/Fishhcheat/refs/heads/main/Sigmacheat.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Xatawell/Fishhcheat/refs/heads/main/scripts/fishhcheat.lua"))()
    end,
 })
 
-local Label = Tabanti:CreateLabel("WARNING: DONT USE SILENT AIMBOT AND NO SPREAD", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
-
-local Button = Tabanti:CreateButton({
-   Name = "Bypass || just so you know dont use aimbot its detected",
-   Callback = function()
- getgenv()._IgnoreErrorCheck = true;
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f1fde88a51d2fc5fad5548db80a256c2.lua"))();
-   end,
-})
+local Label = Tabanti:CreateLabel("discontinued", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, 
 
 local Button = Tabforsaken:CreateButton({
    Name = "Goa Hub || key is goaHuB41",
