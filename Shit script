@@ -54,6 +54,31 @@ local Tabcre = Window:CreateTab("Credits", 4483362458) -- Title, Image
 
 local Section1 = Tab:CreateSection("scripts duh")
 
+local Label = Tab:CreateLabel("WARNING: AISIKE, N00B HUB AND PROPDAILY ARE SCRIPTS I FOUND ON GITHUB THEIR EITHER DETECTED OR BROKEN", 4483362458, Color3.fromRGB(222, 243, 246), true)
+
+local Button = Tab:CreateButton({
+   Name = "N00b hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/c0deblox/Noob-Hub/refs/heads/main/Typical-Colors-2.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "propdaily script",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/propdaily/TypicalColors2/main/main"))();
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Aisike || outdated",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/AlsikeTypicalColors2/refs/heads/main/latest.lua"))()
+   end,
+})
+
+local Divider = Tab:CreateDivider()
+
 local Button = Tab:CreateButton({
    Name = "Fishhcheat v2|| VERY RISKY!!!",
    Callback = function()
@@ -2553,6 +2578,13 @@ local Button = Tabre:CreateButton({
    loadstring(game:HttpGet("https://pastebin.com/raw/18LKuGNW"))()
    end,
 })
+
+local Label = Tabcre:CreateLabel("Aisike - kade", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
+
+local Label = Tabcre:CreateLabel("Propdaily script - propdaily", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
+
+local Label = Tabcre:CreateLabel("N00b hub - i forgot lmao", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
+
 
 local Label = Tabcre:CreateLabel("Pathos - geodude", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, IgnoreTheme
 
