@@ -2539,6 +2539,13 @@ local Button = Tab:CreateButton({
 
 local Label = Tabanti:CreateLabel("discontinued", 4483362458, Color3.fromRGB(222, 243, 246), true) -- Title, Icon, Color, 
 
+local Button = Tabanti:CreateButton({
+   Name = "Asger ac bypasser",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f1fde88a51d2fc5fad5548db80a256c2.lua"))()
+   end,
+})
+
 local Button = Tabforsaken:CreateButton({
    Name = "Goa Hub || key is goaHuB41",
    Callback = function()
@@ -2594,7 +2601,7 @@ local Label = Tabcre:CreateLabel("Fishhcheat - Fishhvh", 4483362458, Color3.from
 
 local Label = Tabcre:CreateLabel("Red.leaf - Xatawell", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
 
-local Label = Tabcre:CreateLabel("SkibidiCheat,script hub,anti cheat bypass - mad mechanic ", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
+local Label = Tabcre:CreateLabel("SkibidiCheat,script hub- mad mechanic ", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
 
 local Label = Tabcre:CreateLabel("TWR - the creator of this script wanted to stay anonymous but got help from Asger so creds to him ", 4483362458, Color3.fromRGB(222, 246, 243), true) -- Title, Icon, Color, IgnoreTheme
 
